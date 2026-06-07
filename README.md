@@ -1,39 +1,34 @@
-# BadAppleBash
+# BadAppleSсheme
 
-![Design sem nome](https://github.com/user-attachments/assets/329e599e-2284-4d9d-8936-3c166f85334d)
-
-This project reproduces the ["Bad Apple!!"](https://youtu.be/9lNZ_Rnr7Jc?si=ROgXrVvdx13oKPM4) video using Bash script, with all graphics rendered in ASCII art.
+This project reproduces the ["Bad Apple!!"](https://youtu.be/9lNZ_Rnr7Jc?si=ROgXrVvdx13oKPM4) video using Guile Scheme, with all graphics rendered in ASCII art.
 
 - Why?
-- Why not :P
-
-
+- Why not really lolz
 
 ## Usage Instructions
 01. Clone the repository to your local environment:
-```bash
-git clone https://github.com/FelipeFMA/BadAppleBash.git
+```scheme
+(cmd "git clone https://github.com/lisper004/BadAppleScheme.git")
 ```
 
 02. Navigate to the project directory:
-```bash
-cd BadAppleBash
+```scheme
+(cd "BadAppleScheme")
 ```
 
-03. Make the `run.sh` script executable:
-```bash
-chmod +x run.sh
+03. Run the script:
+```scheme
+(runsc "run.scm")
 ```
-
-04. Run the script:
-```bash
-./run.sh
+Or:
+```scheme
+(cmd "guile run.scm")
 ```
 
 ---
 
 
-## Please consider donating
+## support the author!
 Bitcoin:
 `bc1qnkq7hf6r53fg73jh3awfsn6ydeh87u5cf8hs3g`
 
@@ -53,4 +48,4 @@ felipefmavelar@gmail.com
 
 ## Credits
 
-This project is a fork of [trung-kieen/bad-apple-ascii](https://github.com/trung-kieen/bad-apple-ascii). Special thanks to the original creator for their work!
+This project is a fork of [FelipeFMA/BadAppleBash/](https://github.com/FelipeFMA/BadAppleBash/). Special thanks to the original creator for their work!
